@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+    <header> 
+        <div class="title">ROCK-PAPER-SCISSOR</div>
+    </header>
+    <section class="game">
+        <div class="score"> 
+            <div class="playerScore">
+                <h2>Player</h2>
+                <p class="p-count count">0</p>
+            </div>      
+            <div class="computerScore">
+                <h2>Computer</h2>
+                <p class="c-count count">0</p>
+            </div>
+        </div>
+        <div class="move">Choose your move out of below options</div>
+        <div class="options">
+            <div>
+                <img src="rock-svgrepo-com.svg" height="80px">
+                <button class="rock">Rock</button>
+            </div>
+            <div>
+                <img src="paper-svgrepo-com.svg" height="80px">
+                <button class="paper">Paper</button>
+            </div>
+            <div>
+                <img src="scissors-svgrepo-com.svg" height="80px">
+                <button class="scissor">Scissors</button>
+            </div>   
+        </div>
+        <div class="result"></div>
+        <button class="restart"></button><br>
+        <div class="movesleft">Moves Left : 10 </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

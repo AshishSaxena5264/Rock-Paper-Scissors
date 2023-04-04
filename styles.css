@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: lightblue;
+}
+.title{
+    font-size: 60px; 
+    text-align: center;   
+    background-color: black;
+}
+.game{
+    background-image: url("Cloudy.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.score{
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 120px;
+    z-index: 1;
+    background-color: black;
+}
+.p-count,.c-count{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.options{
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.move{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.rock, .paper, .scissor{
+    margin-top: 60px;
+    padding: 0.8rem;
+    width: 100px;
+    border-radius: 50%;
+    background:darkslategrey;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+} 
+.rock:hover{
+    background-color: blueviolet
+}
+.paper:hover{
+    background-color: blueviolet
+}
+.scissor:hover{
+    background-color: blueviolet
+}
+.restart{
+    display: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: green;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.restart:hover{
+    background-color: blueviolet;
+}
+.movesleft{
+    font-size: 1.5rem;
+}
+.result{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
